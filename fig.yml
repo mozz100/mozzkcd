@@ -1,6 +1,0 @@
-mozzkcd:
-  build: .
-  command: /bin/sh -c "while true; do echo 'Use fig run...'; sleep 1; done"
-  volumes:
-    - .:/tmp
-  working_dir: /tmp
